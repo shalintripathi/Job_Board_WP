@@ -4,6 +4,8 @@
 <?php get_header(); ?>
 	
 <?php
+
+/* Flex form Theme Custom Page */
 	$options = get_option('sf_flexform_options');
 	
 	$default_show_page_heading = $options['default_show_page_heading'];
